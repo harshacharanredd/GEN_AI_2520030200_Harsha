@@ -1,0 +1,16 @@
+﻿Question_ID,Question,Expected_Answer,LLM_Answer,Matched_Keywords,Missing_Keywords,Score,Status,Source,Model,Release
+Q001,What is tokenization in large language models?,Tokenization is the process of splitting input text into smaller units called tokens.,"Tokenization is a crucial step in the processing of large language models. It involves breaking down input text into individual tokens, which are the basic units of language that can be processed by the model.
+
+In the context of large language models, tokenization typically involves the following steps:
+
+1. **Text Preprocessing**: The input text is preprocessed to remove any unnecessary characters, such as punctuation, special characters, and whitespace.
+2. **Tokenization**: The preprocessed text is then broken down into individual tokens, which can be words, subwords, or even characters. The choice of tokenization scheme depends on the specific model and its architecture.
+3. **Subwording**: Many modern large language models use subwording, which involves breaking down words into smaller subwords or word pieces. This is done to handle out-of-vocabulary words and improve the model's ability to handle unseen text.
+
+Some common tokenization schemes used in large language models include:
+
+1. **WordPiece Tokenization**: This is a popular tokenization scheme used in BERT and other transformer-based models. It breaks down words into subwords, where each subword is a contiguous sequence of characters in the word.
+2. **Character-Level Tokenization**: This scheme breaks down text into individual characters, which can be useful for models that require character-level attention.
+3. **Word Tokenization**: This scheme breaks down text into individual words, which is useful for models that require word-level attention.
+
+The choice of tokenization scheme depends on the specific requirements of the model and the task it is being used for. Tokenization is an important step in the processing of large language models, as it allows the model to process text in a way that is efficient and effective.","text, tokens",splitting,66.67,PASS,https://huggingface.co/docs/transformers/en/tokenizer_summary,llama3.2,v0.1
